@@ -13,10 +13,15 @@ export default defineConfig({
       ]
     }
   },
+  optimizeDeps: {
+    include: ['@mui/material', '@mui/icons-material']
+  },
   resolve: {
     alias: {
       '@mui/material': '@mui/material/index',
       '@mui/icons-material': '@mui/icons-material/index'
-    }
+    },
+    preserveSymlinks: true,
+    mainFields: ['module', 'main']
   }
 })
