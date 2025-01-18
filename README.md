@@ -7,7 +7,7 @@
 - **Name:** Neepurna Baral
 - **Student ID:** 101586698
 - **Course:** Front End Development
-- **Assignment:** 03
+- **Assignment:** 04
 
 ## Project Description
 In this Lab we Have 
@@ -16,12 +16,9 @@ In this Lab we Have
 - Created a function to add new Todo items.
 -  Todo List by adding features like editing and marking tasks as
 complete.
- 
 - Implemented a function to remove Todo items.
 - Rendered the Todo items and added remove buttons.
 - styled  Todo List to enhance its appearance using Material UI.
-
-
 
 ## Setup Instructions
 1. Clone the repository
