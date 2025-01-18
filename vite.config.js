@@ -4,24 +4,16 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   build: {
-    rollupOptions: {
-      external: [
-        '@mui/material',
-        '@emotion/react',
-        '@emotion/styled',
-        '@mui/icons-material'
-      ]
+    outDir: 'dist',
+    sourcemap: true,
+    commonjsOptions: {
+      include: [/node_modules/],
+      transformMixedEsModules: true
     }
-  },
-  optimizeDeps: {
-    include: ['@mui/material', '@mui/icons-material']
   },
   resolve: {
     alias: {
-      '@mui/material': '@mui/material/index',
-      '@mui/icons-material': '@mui/icons-material/index'
-    },
-    preserveSymlinks: true,
-    mainFields: ['module', 'main']
+      '@': '/src'
+    }
   }
 })
