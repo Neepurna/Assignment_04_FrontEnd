@@ -1,7 +1,7 @@
 # Basic To-Do-List 
 
 ## Screenshot
-![Todo List App Screenshot](./src/assets/screenshot.png)
+![Todo List App Screenshot](./src/assets/ScreenShot.png)
 
 ## Student Information
 - **Name:** Neepurna Baral
