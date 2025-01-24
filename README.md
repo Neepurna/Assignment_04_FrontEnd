@@ -10,7 +10,16 @@
 - **Assignment:** 04
 
 ## Project Description
-In this Lab we have learned advanced concepts of React Router, including passing parameters to components and performing redirection based on conditions. These features are essential for creating dynamic and interactive single-page applications. React Router provides a powerful toolset for managing navigation in your React projects, allowing you to build complex user interfaces with ease.
+In this Lab we Have 
+- Created a functional component Todo to display the Todo List.
+- Managed the state of Todo items and the new Todo input using the useState hook.
+- Created a function to add new Todo items.
+-  Todo List by adding features like editing and marking tasks as
+complete.
+- Implemented a function to remove Todo items.
+- Rendered the Todo items and added remove buttons.
+- styled  Todo List to enhance its appearance using Material UI.
+
 
 
 ## Setup Instructions
