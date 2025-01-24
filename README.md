@@ -11,7 +11,6 @@
 
 ## Project Description
 In this Lab we have learned advanced concepts of React Router, including passing parameters to components and performing redirection based on conditions. These features are essential for creating dynamic and interactive single-page applications. React Router provides a powerful toolset for managing navigation in your React projects, allowing you to build complex user interfaces with ease.
-complete.
 
 
 ## Setup Instructions
